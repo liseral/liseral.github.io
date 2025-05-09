@@ -1,0 +1,105 @@
+/* General Body Styles */
+body {
+    font-family: 'Georgia', serif; /* 更专业的字体，可以替换为 'Times New Roman', serif; */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* 浅灰色背景 */
+    color: #333; /* 深灰色文字 */
+    text-align: center; /* 居中显示内容 */
+}
+
+/* Container for content to limit width and center */
+.container {
+    max-width: 960px; /* 最大宽度，避免内容过宽难以阅读 */
+    margin: 20px auto; /* 上下20px，左右自动居中 */
+    padding: 20px;
+    background-color: #fff; /* 白色内容背景 */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* 轻微阴影效果 */
+    border-radius: 8px; /* 圆角边框 */
+    text-align: left; /* 内容文本左对齐 */
+}
+
+/* Navigation Bar Styles */
+nav {
+    background: #333; /* 黑色导航栏背景 */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    margin-bottom: 20px; /* 导航栏下方留白 */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none; /* 去掉下划线 */
+    padding: 0 15px;
+    display: inline-block; /* 使链接可以设置内边距 */
+}
+
+nav a:hover {
+    background-color: #575757; /* 鼠标悬停时的背景色 */
+    border-radius: 4px; /* 悬停时的圆角效果 */
+}
+
+/* Headings Styles */
+h1, h2, h3 {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* 更具学术感的标题字体 */
+    color: #0056b3; /* 蓝色标题 */
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.4em; }
+
+/* Paragraph and List Styles */
+p {
+    margin-bottom: 1em;
+}
+
+ul, ol {
+    margin-bottom: 1em;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Link Styles */
+a {
+    color: #007bff; /* 蓝色链接 */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* 鼠标悬停时显示下划线 */
+}
+
+/* Image Styling (for profile photo) */
+img {
+    display: block; /* 确保图片独立一行 */
+    margin: 20px auto; /* 图片上下20px，左右自动居中 */
+    border: 3px solid #0056b3; /* 蓝色边框 */
+    padding: 5px; /* 边框内填充 */
+    border-radius: 50%; /* 使图片变为圆形 */
+    max-width: 200px; /* 最大宽度 */
+    height: auto; /* 高度自适应 */
+}
+
+/* CV Link specific style */
+.cv-link {
+    display: inline-block;
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.cv-link:hover {
+    background-color: #003d80;
+    text-decoration: none;
+}
